@@ -1,0 +1,19 @@
+//creates a new Branch off of master//
+
+git branch newBranchName
+
+//switches to the new Branch//
+
+git checkout newBranchName
+
+//make changes, run through pushing(git status, git add ., git commit -m "what you changed", git push)//
+
+go to github and click on Compare & pull request
+add a comment for others and click Create pull request
+other person reviews and leaves comment and then they click Merge Pull Request > Confirm merge
+other Branch can be deleted after
+other person can then do git pull to update their code
+
+//go back to Master//
+
+git checkout master
